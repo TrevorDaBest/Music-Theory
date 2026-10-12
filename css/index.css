@@ -1,0 +1,40 @@
+/* Main Body */
+body {
+    /* Text */
+    font-family: monospace;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+
+    /* Background */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Program Buttons */
+.programs {
+    /* Test */
+    font-weight: 800;
+
+    /* Box */
+    background: #414c9d;
+    padding: 10px;
+    margin: 5px;
+
+    /* Border */
+    border: black 3px solid;
+    border-radius: 30px;
+
+    /* No user select */
+    user-select: none;
+
+    /* Anim Transition */
+    transition: 0.7s ease;
+}
+
+/* Program Buttons Anim */
+.programs:hover { /* Hover */
+    scale: 110%;
+    background: #8f8fe0;
+    cursor: pointer;
+}

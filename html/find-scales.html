@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Boilerplate -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Files-->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/find-scales.css">
+
+    <!-- Title -->
+    <title>Find Scales</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>Find Scales</h1>
+    <h2>Use this side of the app to find scales.</h2>
+    <h3>Remember: This is a tool. Not a toy. Tabs/Fretboard visulizations assume standard guitar tuning.</h3>
+
+    <!-- Choose Scale -->
+    <select name="type" id="choose-type"></select>
+    <select name="vis" id="vis">
+        <option value="treble">Treble Clef</option>
+        <option value="bass">Bass Clef</option>
+        <option value="tabs">Tablature</option>
+        <option value="piano">Piano Keys</option>
+        <option value="guitar">Fretboard</option>
+    </select>
+    <br>
+    <canvas id="piano-view" width="750" height="300"></canvas>
+
+    <!-- Scale Data -->
+    <p id="scale">Finding: A Major (Ionian)</p>
+    <button id="find-scale">Find Scale</button>
+    <br>
+    <p id="scale-notes">Put in a scale to find the notes!</p>
+
+    <!-- JavaScript -->
+    <script src="../js/find-scales.js"></script>
+    <script src="../js/bg.js"></script>
+</body>
+</html>
