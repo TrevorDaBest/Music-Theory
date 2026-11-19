@@ -1,4 +1,8 @@
 /* Main Body */
+html {
+    background-color: rgb(123, 35, 123);
+}
+
 body {
     position: relative;
     height: 100dvh;
