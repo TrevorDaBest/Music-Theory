@@ -13,6 +13,7 @@ body {
     /* Background */
     background-repeat: no-repeat;
     min-height: 100vh;
+    background: rgb(123, 35, 123)
 }
 
 /* Program Buttons */
