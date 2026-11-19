@@ -101,7 +101,6 @@ The scale you should practice is **below** the Reroll button.
 
 1. This is a music theory web app. This is **not** a DAW. It can produce sounds, but it sucks as a music composition tool.  
 2. This is made for fun. I’m aware there exists many apps that can do what this app does but better and there’s more things, but I just wanted to practice coding.  
-3. If you have any suggestions, email me at: [trevor.2341304@nv.ccsd.net](mailto:trevor.2341304@nv.ccsd.net).
 
 ### Section 5: Technical Stuff (For anyone that cares about how it works or how it’s made)
 
