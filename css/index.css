@@ -1,5 +1,9 @@
 /* Main Body */
 body {
+    position: relative;
+    height: 100dvh;
+    margin: 0 auto;
+  
     /* Text */
     font-family: monospace;
     font-size: 1.5em;
@@ -37,4 +41,29 @@ body {
     scale: 110%;
     background: #8f8fe0;
     cursor: pointer;
+}
+
+#nav {
+    /* Settings */
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: white;
+    width: 100dvw;
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    
+    /* Box */
+    padding: 20px;
+}
+
+#nav a {
+    /* Text */
+    text-decoration: none;
+    color: black;
 }
